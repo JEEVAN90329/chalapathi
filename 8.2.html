@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<button onclick="Jeevan()">click me</button>
+<p id="mango">How Are U</p>
+</body>
+<script>
+	function Jeevan()
+	{
+		var a;
+		if (confirm("Tell me ur opinion are u single"))
+		{
+			a="congratulations";
+		}
+		else
+		{
+			a="Be careful";
+		}
+		document.getElementById('mango').innerHTML=a;
+	}
+</script>
+</html>
