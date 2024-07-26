@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script>
+		let text="he's often called \"jhonny\"";
+		document.write(text);
+		document.write("<br>");
+		let text1="he's often called \"jhonny\"";
+		document.write(text1);
+		document.write("<br>");
+		let text2="jeevan";
+		let len=text.length;
+		document.write(len);
+		document.write("<br>");
+		let pos=text.charAt(0);
+		document.write(pos);
+		document.write("<br>");
+		let sli=text.slice(14);
+		document.write(sli);
+		document.write("<br>");
+		let text3=text1.concat("",text2);
+		document.write(text3);
+		document.write("<br>");
+		let text4=text1.trim();
+		document.write(text4);
+		document.write("<br>");
+		let newtext=text.replace("jhonny","jeevan");
+		document.write(newtext);
+		document.write("<br>");
+		const myArray = text1.split(",");
+		document.write(myArray);
+		document.write("<br>");
+		text5 = text1.replaceAll("he's often called \"jhonny\"","good luck my boy");
+		document.write(text5);
+		document.write("<br>");
+		let result = text5.repeat(2);
+		document.write(result);
+		document.write("<br>");
+	</script>
+
+</body>
+</html>
